@@ -1,0 +1,18 @@
+ifnot DarkTheme include dark.ui
+
+Clone Panel
+{
+    Name bg
+    RectWH 0 0 10 10
+    Dock all 0 0 1 1
+
+    Object Spine
+    {
+        Name spineboy
+        RectWH 250 700 0 0
+        Spine spineboy-pma.atlas spineboy-pro.skel
+        Ani walk
+    }
+
+}
+
