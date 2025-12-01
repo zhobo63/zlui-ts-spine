@@ -148,7 +148,7 @@ export class zlUISpine extends zlUIWin
 
     Refresh(ti:number, parent?:zlUIWin):boolean 
     {
-        this.state.update(ti);        
+        this.state.update(ti);
         return super.Refresh(ti, parent);
     }
     
