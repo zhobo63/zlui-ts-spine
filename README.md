@@ -29,3 +29,25 @@
     *   Provides helper functions like `toImVec2` and `toMat4` to convert `zlui-ts`'s `Vec2` and `Transform` objects to Spine's `ImGui.Vec2` and `SPINE38.Matrix4` formats, ensuring correct positioning and scaling of Spine animations within the `zlui-ts` UI.
 
 In essence, `zlUISpine.ts` acts as a bridge, allowing `zlui-ts` to render complex 2D Spine animations as native UI elements, managed by the existing `zlui-ts` layout and event system.
+
+## Example
+
+### Initialize 
+
+```ts
+this.ui=new UIMgr;
+this.ui.backend=new BackendImGui(ImGui.GetBackgroundDrawList());
+SPINE.Renderer.Register(this.ui, 'assets/');
+```
+
+### Loading
+
+```ts
+Object Spine
+{
+    Name spineboy
+    RectWH 250 895 0 0
+    Spine spineboy-pma.atlas spineboy-pro.skel
+    Ani walk
+}
+```
