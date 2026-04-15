@@ -7,7 +7,8 @@
     "allowJs": true,
     "sourceMap": true,
     "moduleResolution": "bundler",
-    "outDir": "./out"
+    "outDir": "./out",
+    "rootDir": "./"
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules/**", "dist/**", "www/**"],
