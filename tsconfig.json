@@ -6,7 +6,7 @@
     "target": "es6",
     "allowJs": true,
     "sourceMap": true,
-    "moduleResolution": "Node",
+    "moduleResolution": "bundler",
     "outDir": "./out"
   },
   "include": ["src/**/*.ts"],

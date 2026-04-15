@@ -1,6 +1,6 @@
 {
   "name": "@zhobo63/zlui-ts-spine",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "zlSpine is a spine plugin of zlui-ts.",
   "main": "./src/zlSpine",
   "scripts": {
@@ -25,11 +25,11 @@
   "homepage": "https://github.com/zhobo63/zlui-ts#readme",
   "devDependencies": {
     "@webpack-cli/generators": "^3.0.7",
-    "@zhobo63/imgui-ts": "^0.1.50",
-    "@zhobo63/zlui-ts": "^0.1.41",
-    "ts-loader": "^9.5.4",
+    "@zhobo63/imgui-ts": "^0.1.53",
+    "@zhobo63/zlui-ts": "^0.1.68",
+    "ts-loader": "^9.5.7",
     "typescript": "^5.9.3",
-    "webpack": "^5.102.1",
+    "webpack": "^5.106.1",
     "webpack-cli": "^5.1.4"
   }
 }

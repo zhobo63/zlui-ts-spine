@@ -33,9 +33,9 @@ class App
         SPINE.spineRenderer.OnResize(width, height);
     }
 
-    isDirty:boolean;
+    isDirty:boolean=false;
 
-    ui:UIMgr;
+    ui!:UIMgr;
 }
 
 let app:App;
